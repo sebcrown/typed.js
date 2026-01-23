@@ -1,6 +1,6 @@
 {
   "name": "typed.js",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "homepage": "https://github.com/mattboldt/typed.js",
   "repository": "https://github.com/mattboldt/typed.js",
   "license": "MIT",
@@ -31,6 +31,7 @@
   "scripts": {
     "build": "microbundle --name=Typed",
     "dev": "microbundle --name=Typed watch",
-    "diff": "git diff -- ':^docs'"
+    "diff": "git diff -- ':^docs'",
+    "docs": "documentation build src/typed.js -o docs/ -f html"
   }
 }
