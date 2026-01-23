@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
     strings: ['First string...'],
     typeSpeed: 40,
     backSpeed: 0,
-    shouldBackspace: true,
+    loop: true,
   });
 
   document.querySelector('.add-string').addEventListener('click', function () {
