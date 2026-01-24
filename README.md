@@ -1,15 +1,21 @@
-[![Code Climate](https://codeclimate.com/github/mattboldt/typed.js/badges/gpa.svg)](https://codeclimate.com/github/mattboldt/typed.js)
-[![GitHub release](https://img.shields.io/github/release/mattboldt/typed.js.svg)]()
 [![npm](https://img.shields.io/npm/dt/typed.js.svg)](https://img.shields.io/npm/dt/typed.js.svg)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mattboldt/typed.js/master/LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-GPL3-blue.svg)](https://raw.githubusercontent.com/mattboldt/typed.js/main/LICENSE.txt)
 
-<img src="https://raw.githubusercontent.com/mattboldt/typed.js/master/logo-cropped.png" width="450px" title="Typed.js" />
+<img src="https://raw.githubusercontent.com/mattboldt/typed.js/main/logo-cropped.png" width="450px" title="Typed.js" />
 
 ### [Live Demo](http://www.mattboldt.com/demos/typed-js/) | [View All Demos](http://mattboldt.github.io/typed.js/) | [View Full Docs](http://mattboldt.github.io/typed.js/docs) | [mattboldt.com](http://www.mattboldt.com)
 
 Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
 
 ---
+
+## Commercial Licensing
+
+This project is dual-licensed under GPL-3.0 for open source use.
+For commercial/proprietary use, purchase a license:
+
+- [Limited Commercial License](https://buy.stripe.com/9B6aEW9hvg4Zg2Hh0FgA800)
+- [Unlimited Commercial License](https://buy.stripe.com/cNi4gy51fg4ZbMr25LgA801)
 
 ## Installation
 

@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "homepage": "https://github.com/mattboldt/typed.js",
   "repository": "https://github.com/mattboldt/typed.js",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "author": "Matt Boldt",
   "description": "A JavaScript Typing Animation Library",
   "type": "module",

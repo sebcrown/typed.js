@@ -4,11 +4,11 @@
 Filling out this template is required.
 -->
 
- - [ ] Have you viewed your changes locally on the demos page, located on https://github.com/mattboldt/typed.js/blob/master/index.html?
+- [ ] Have you viewed your changes locally on the demos page, located on https://github.com/mattboldt/typed.js/blob/main/index.html?
 
- - [ ] If necessary, have you added a new demo to the index.html list of demos? If it's an improvement or small addition, have you added it to an existing demo on the demos page?
+- [ ] If necessary, have you added a new demo to the index.html list of demos? If it's an improvement or small addition, have you added it to an existing demo on the demos page?
 
- - [ ] If applicable, have you created a fork of the following JSFiddle with your branch's code and your new feature showcased?
+- [ ] If applicable, have you created a fork of the following JSFiddle with your branch's code and your new feature showcased?
 
 <!--
 
