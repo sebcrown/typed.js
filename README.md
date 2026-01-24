@@ -9,43 +9,33 @@ Typed.js is a library that types. Enter in any string, and watch it type at the 
 
 ---
 
-## Commercial Licensing
+## Licensing
 
-Typed.js is dual-licensed under GPL-3.0 for open source use.
-
-For commercial use, please purchase a license:
-
-- [Limited Commercial License](https://buy.stripe.com/9B6aEW9hvg4Zg2Hh0FgA800)
-- [Unlimited Commercial License](https://buy.stripe.com/cNi4gy51fg4ZbMr25LgA801)
+<table align="center">
+  <tr>
+    <th><a href="LICENSE.txt">GPL-3.0 License</a></th>
+    <th><a href="https://buy.stripe.com/9B6aEW9hvg4Zg2Hh0FgA800">Limited Commercial License</a></th>
+    <th><a href="https://buy.stripe.com/cNi4gy51fg4ZbMr25LgA801">Unlimited Commercial License</a></th>
+  </tr>
+  <tr>
+    <td>
+      <p>For use on personal and open source projects</p>
+      <p><a href="LICENSE.txt">View License</a></p>
+    </td>
+    <td>
+      <p>For use on a single commercial project</p>
+      <p><a href="https://buy.stripe.com/9B6aEW9hvg4Zg2Hh0FgA800">Purchase License</a></p>
+      <p><a href="LIMITED_COMMERCIAL_LICENSE.md">View License</a></p>
+    </td>
+    <td>
+      <p>For use on unlimited commercial projects</p>
+      <p><a href="https://buy.stripe.com/cNi4gy51fg4ZbMr25LgA801">Purchase License</a></p>
+      <p><a href="UNLIMITED_COMMERCIAL_LICENSE.md">View License</a></p>
+    </td>
+  </tr>
+</table>
 
 ## Installation
-
-### CDN
-
-```html
-<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-```
-
-For use directly in the browser via `<script>` tag:
-
-```html
-  <!-- Element to contain animated typing -->
-  <span id="element"></span>
-
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-
-  <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-      typeSpeed: 50,
-    });
-  </script>
-</body>
-```
-
-### As an ESModule
 
 For use with a build tool like [Vite](https://vitejs.dev/), and/or in a React application, install with NPM or Yarn.
 
@@ -75,14 +65,14 @@ const typed = new Typed('#element', {
 ### ReactJS Usage
 
 ```js
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
 function MyComponent() {
   // Create reference to store the DOM element containing the animation
-  const el = React.useRef(null);
+  const el = useRef(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
       typeSpeed: 50,
@@ -100,6 +90,31 @@ function MyComponent() {
     </div>
   );
 }
+```
+
+### CDN
+
+```html
+<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+```
+
+For use directly in the browser via `<script>` tag:
+
+```html
+  <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
 ```
 
 More complex hook-based function component: https://jsfiddle.net/mattboldt/60h9an7y/
