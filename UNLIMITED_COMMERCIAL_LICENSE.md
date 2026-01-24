@@ -1,11 +1,13 @@
-# **Typed.js Limited Commercial Software License Agreement**
+# **Typed.js Unlimited Commercial Software License Agreement**
+
+[Purchase the Unlimited Commercial License here](https://buy.stripe.com/cNi4gy51fg4ZbMr25LgA801)
 
 ## **1. License Grant**
 
 This agreement grants you, the **Licensee**, a **non-exclusive, perpetual, and non-transferable** license to use Typed.js.
 
 - Commercial use is allowed
-- The license can be used in one project only
+- The license can be used on unlimited commercial projects
 - The license does not expire
 - Attribution to the software creator is not required
 
@@ -13,8 +15,8 @@ This agreement grants you, the **Licensee**, a **non-exclusive, perpetual, and n
 
 This license permits the use of Typed.js for the following purposes:
 
-- Development and deployment of a **single commercial product**.
-- This includes, but is not limited to, a single website, a single domain, or a single application instance.
+- Development and deployment of **unlimited commercial products**.
+- This includes, but is not limited to, multiple websites, multiple domains, or multiple application instances.
 
 ## **3. Usage Restrictions**
 
