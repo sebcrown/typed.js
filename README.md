@@ -11,8 +11,9 @@ Typed.js is a library that types. Enter in any string, and watch it type at the 
 
 ## Commercial Licensing
 
-This project is dual-licensed under GPL-3.0 for open source use.
-For commercial/proprietary use, purchase a license:
+Typed.js is dual-licensed under GPL-3.0 for open source use.
+
+For commercial use, please purchase a license:
 
 - [Limited Commercial License](https://buy.stripe.com/9B6aEW9hvg4Zg2Hh0FgA800)
 - [Unlimited Commercial License](https://buy.stripe.com/cNi4gy51fg4ZbMr25LgA801)
