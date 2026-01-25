@@ -19,7 +19,7 @@ Typed.js is a library that types. Enter in any string, and watch it type at the 
   </tr>
   <tr>
     <td>
-      <p>For use on personal and open source projects</p>
+      <p>Free for use on personal and open source projects</p>
       <p><a href="LICENSE.txt">View License</a></p>
     </td>
     <td>
